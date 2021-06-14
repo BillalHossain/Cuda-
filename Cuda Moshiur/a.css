@@ -1,0 +1,339 @@
+/* =================================Common thing================================ */
+*{
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+    margin:0;
+    padding:0;
+  
+}
+.container{
+    max-width:1140px;
+     margin:0 auto;
+}
+
+[class*=col-]{
+    width:100%;
+    float:left;
+}
+
+hr{
+   width:50px;
+   border:solid;
+  
+
+}
+.services h2{
+margin:0;
+padding:20px 0;
+}
+.services p{
+padding:0 20px;
+}
+
+ .team img{
+    width:100%;
+    height:auto;
+}
+
+
+
+
+
+
+/* ====================header================= */
+header{
+    background:linear-gradient(#87509ce8,#87509cdc),url("picture/pexels-pixabay-221047.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    width:100%;
+   
+}
+.navi{
+overflow: hidden;
+padding:60px 50px 0 50px;
+}
+.logo-part{
+float:left;
+text-align: center;
+}
+
+.menu-part ul{
+padding:0;
+margin:30px;
+list-style: none;
+text-align: center;
+
+}
+
+.menu-part ul li a{
+text-decoration: none;
+display: block;
+padding:10px 30px;
+color:white;
+border-radius: 5px;
+}
+.menu-part ul li a:hover{
+background: #643a79;
+}
+
+.banner{
+text-align: center;
+color: white;
+
+}
+
+.banner-content h1{
+display: none;
+}
+
+.banner-content button{
+margin-top:50px;
+background: #eb7d4b;
+border:none;
+border-radius: 5px;
+padding:20px 40px;
+color:white;
+transition: 0.1s;
+font-size:18px;
+}
+
+button:hover{
+    opacity: 0.6;
+    
+}
+
+/* Services */
+
+.services{
+background:linear-gradient(#17c2a3d5,#17c2a3e5),url("picture/pexels-pixabay-236698.jpg");
+background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+color:white;
+text-align: center;
+padding: 5rem 0;
+}
+
+
+.services::after{
+    content:"";
+    display: table;
+    clear:both;
+}
+
+
+
+/* team */
+
+.team{
+background: #e7f1f8;
+overflow:hidden;
+padding:120px 0;
+}
+.box{
+text-align: center;
+}
+
+.card-area{
+margin-top:80px;
+
+}
+.cards{
+padding:10px;
+}
+.cards span{
+    font-size:0.8rem;
+    color:#30bae7;
+}
+.cards img{
+    border-radius: 50%;
+    padding:0 20px;
+    width: 13rem;
+    height:9rem;
+}
+
+
+/* =====================portfolio===================== */
+
+.portfolio{
+background: #ffdd99;
+padding: 120px 0;
+text-align: center;
+position: relative;
+overflow: hidden;
+}
+
+.port>p{
+padding:0 30px;
+}
+
+.link{
+margin:60px 0;
+}
+.link button{
+background: #ebc985;
+border:none;
+border-radius: 3px;
+padding:10px 20px;
+text-transform: uppercase;
+margin-left:10px;
+cursor:pointer;
+}
+.link button:first-child{
+margin-left:0;
+}
+
+.computers+button{
+background: #17c2a4;
+color:white;
+padding:20px 40px;
+font-size:20px;
+border-radius:5px;
+position: absolute;
+bottom:2rem;
+left:50%;
+transform:translateX(-50%)
+}
+.computer{
+margin:20px 0;
+padding:0 30px;
+}
+.computer img{
+width:100%;
+height:auto;
+}
+.computers{
+    transition: 1s;
+    width: 100%;
+    height: 500px;
+
+}
+.link .mixitup-control-active{
+    background: #fff;
+}
+
+
+
+/* review */
+
+.people{
+background: #d74680;
+overflow: hidden;
+color:white;
+text-align: center;
+padding:110px 0;
+}
+
+.review-area{
+    margin-top:70px;
+}
+.review{
+margin-bottom:30px;
+}
+
+.review img{
+border-radius:50%;
+width:6rem;
+height: 6rem;
+}
+.review-text{
+padding:0 80px;
+}
+
+
+/* ===============contact============ */
+
+.contact{
+background: #3c5499;
+overflow: hidden;
+text-align: center;
+color:white;
+padding:60px 0;
+}
+.cont>p{
+padding:0 30px;
+}
+
+.form{
+margin:40px 0;
+}
+.in1{
+
+}
+.in1 input{
+width:60%;
+margin-bottom:20px;
+background: #273a71;
+border:none;
+padding:10px;
+color:white;
+}
+.in2{
+
+}
+.in2 input{
+    width:60%;
+    margin-bottom:20px;
+    background: #273a71;
+border:none;
+padding:10px;
+color:white;
+}
+.in3{
+    
+    
+}
+.in3 textarea{
+    width:60%;
+    background: #273a71;
+border:none;
+padding:10px;
+color:white;
+}
+
+.cont input[type=submit]{
+    background: #30bae7;
+    border:none;
+    padding:14px 80px;
+    border-radius:5px;
+    margin-top: 2.4rem;
+    font-size: 1.2rem;
+}
+.cont input[type=submit]:hover{
+    background: #30b9e7c7;
+   
+}
+
+
+footer{
+background: #344b8e;
+text-align: center;
+}
+.list{
+padding:55px 0;
+}
+.list a{
+text-decoration: none;
+color:white;
+padding-right:20px;
+padding-bottom: 10px;
+display: inline-block;
+}
+.list a:last-child{
+    padding-right:0px;
+
+}
+
+
+
+
+
+
+
+
+
